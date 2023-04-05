@@ -1,4 +1,4 @@
---all of the students currently enrolled
+--select all graduates without a github account
 SELECT name, email, phone
 FROM students
 WHERE end_date IS NOT NULL
